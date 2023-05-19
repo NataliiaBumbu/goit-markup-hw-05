@@ -113,6 +113,8 @@ body {
 }
 
 .site-link {
+    position: relative; 
+     
     font-family: var(--font-family-roboto);
     font-weight: 500;
     font-size: 16px;
@@ -122,10 +124,11 @@ body {
     color: var(--backgr-color);
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+    position: relative; 
 }
 
 .address-list {
+    position: relative; 
     font-style: normal;
     color: #434455;
     
@@ -575,7 +578,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .modal-close-icon:hover,
-  .modal-close-icon:focus {
+  .modal-close-btn:hover .modal-close-icon,
+  .modal-close-btn:focus .modal-close-icon {
     fill: #ffffff;
   }
